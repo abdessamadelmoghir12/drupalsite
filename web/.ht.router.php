@@ -24,7 +24,6 @@
  * @see http://php.net/manual/en/features.commandline.webserver.php
  */
 
- 
 $url = parse_url($_SERVER['REQUEST_URI']);
 if (file_exists(__DIR__ . $url['path'])) {
   // Serve the requested resource as-is.
